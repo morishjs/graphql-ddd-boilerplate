@@ -1,5 +1,7 @@
 # graphql-ddd-boilerplate
 
+![Build / Test](https://github.com/morishjs/graphql-ddd-boilerplate/workflows/Build%20/%20Test/badge.svg)
+
 A web application with `express.js`, `Typescript` and `GraphQL` using Domain-Driven Design.
 
 inspired by
