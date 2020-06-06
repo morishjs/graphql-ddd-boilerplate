@@ -1,0 +1,16 @@
+entity: User
+items:
+  user1:
+    id: '{{random.uuid}}'
+    name: '{{internet.userName}}'
+    email: '{{internet.email}}'
+    phone: '{{phone.phoneNumberFormat(0)}}'
+    password: '{{internet.password}}'
+    affiliateLinks: {}
+  user2:
+    id: '{{random.uuid}}'
+    name: '{{internet.userName}}'
+    email: '{{internet.email}}'
+    phone: '{{phone.phoneNumberFormat(0)}}'
+    password: '{{internet.password}}'
+    affiliateLinks: {}

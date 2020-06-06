@@ -1,0 +1,68 @@
+# @w3tec
+
+# Logs #
+/logs
+*.log
+*.log*
+
+# Node files #
+node_modules/
+npm-debug.log
+yarn-error.log
+
+.env
+.env.local.2
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+.tmp/
+src/api/schema.gql
+
+# Typing #
+typings/
+
+# Dist #
+dist/
+tsconfig.build.json
+
+# IDE #
+.idea/
+*.swp
+.awcache
+.history
+
+# Generated source-code #
+src/**/*.js
+src/**/*.js.map
+!src/public/**/*
+test/**/*.js
+test/**/*.js.map
+coverage/
+!test/preprocessor.js
+mydb.sql
+
+tmp/images/**
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+./tmp/**
+
+# env
+env/.env.develop
+.env.test
+!env/.env.test
+.env.temp
+
+# config
+config/firebase.config.js
+config/firebase.admin.config.js
+config/firebase.admin.config.dev.js
+env/.env.production
+config/firebase.admin.config.production.js
+config/firebase.config.dev.js
+config/firebase.config.production.js
+
+app.yaml

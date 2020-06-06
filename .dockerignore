@@ -1,0 +1,9 @@
+node_modules
+
+dist
+test
+.github
+
+.env
+.env.test
+.env.example

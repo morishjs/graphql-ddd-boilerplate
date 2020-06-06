@@ -1,0 +1,7 @@
+"*.{ts,json,md}":
+    - prettier --write
+    - git add
+
+"*.ts":
+    - tslint --fix
+    - git add
