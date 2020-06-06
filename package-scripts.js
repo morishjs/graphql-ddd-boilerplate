@@ -146,9 +146,13 @@ module.exports = {
     ci: {
       pretest: {
         default: {
-          script: series('cp env/.env.test .env', 'NODE_ENV=test nps db.migrate'),
+          script: series('cp env/.env.ci .env', 'NODE_ENV=test nps db.migrate'),
         },
       },
+      test: {
+        script: series('NODE_ENV=ci jest --config jest.config.js --runInBand --forceExit'),
+        hiddenFromHelp: true,
+      }
     },
 
     /**

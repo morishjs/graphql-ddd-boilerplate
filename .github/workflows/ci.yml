@@ -46,13 +46,4 @@ jobs:
     - name: npm build, and test
       run: |
         yarn build
-        yarn test
-
-    - name: slack notification
-      uses: 8398a7/action-slack@v2
-      if: always()
-      with:
-        status: ${{ job.status }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+        yarn ci:test
