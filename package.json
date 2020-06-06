@@ -36,7 +36,7 @@
       "path": "git-cz"
     }
   },
-  "license": "",
+  "license": "MIT",
   "keywords": [
     "NodeJS",
     "TypeScript"

@@ -15,7 +15,7 @@ jobs:
         env:
           POSTGRES_USER: root
           POSTGRES_PASSWORD:
-          POSTGRES_DB: selectchu_test
+          POSTGRES_DB: graphql_ddd_boilerplate_test
         ports:
         - 5432:5432
           # needed because the postgres container does not provide a healthcheck
