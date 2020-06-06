@@ -35,8 +35,6 @@ inspired by
 - [Related Projects](#-related-projects)
 - [License](#-license)
 
-![divider](./w3tec-divider.png)
-
 ## ❯ Getting Started
 
 ### Step 1: Set up the Development Environment
